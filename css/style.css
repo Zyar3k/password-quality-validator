@@ -5,6 +5,15 @@
 }
 
 body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  font-size: 20px;
+}
+
+.passwordCheck, .emailCheck {
+  padding: 20px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -13,11 +22,14 @@ body {
       align-items: center;
   -ms-flex-direction: column;
       flex-direction: column;
-  height: 100vh;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+}
+
+.passwordCheck {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  font-size: 20px;
+}
+
+.emailCheck {
+  background-image: linear-gradient(60deg, #48535f 0%, #485563 100%);
 }
 
 label {
